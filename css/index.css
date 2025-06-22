@@ -1,0 +1,202 @@
+
+body{
+    background-color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-btn {
+    width: 250px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.custom-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.custom-btn:active {
+    background-color: #333;
+    color: white;
+    border-color: white;
+    transform: scale(0.97);
+}
+.custom-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#hero{
+    object-fit:cover;
+    /* contain */
+    width: 100%;
+    max-height:650px ;
+}
+#navbar-header{
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background-color: black;
+}
+/* html{
+    height: 100vh;
+} */
+.justified-text{
+    text-align:justify ;
+}
+.circle {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container{
+    max-width: 900px;
+    background-color: black;
+}
+.image-row{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.square {
+    background-color: rgba(43, 43, 43, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 8px;
+    width: 100%;
+    min-height: 350px;
+    justify-content: center;
+    color: white;
+}
+.square-long {
+    background-color: rgba(43, 43, 43, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 8px;
+    width: 100%;
+    min-height: 350px;
+    color: white;
+    border: 2px solid white;
+}
+.rectangle {
+    background-color: rgba(43, 43, 43, 0.6);
+    border-radius: 8px;
+    width: 100%;
+    height: auto; /* allow height to adjust to content */
+    align-items: center;
+    color: white;
+    gap: 1rem;
+}
+p{
+    color: white;
+}
+
+h1,h2,h3,h4,h5{
+    color: white;
+}
+ul,li{
+    color: white;
+}
+.fas{
+    font-size: 24px;
+    
+}
+#strength{
+    background-image: url(https://i.pinimg.com/736x/81/46/00/814600de48eaf4ff4922d734edd0a221.jpg);
+    object-fit: cover;
+    background-size: cover;        /* Fills the container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+}
+#endurance{
+    background-image: url(https://i.pinimg.com/736x/fe/39/a1/fe39a174788b9770deb1180078c79ec6.jpg);
+    object-fit: cover;
+    background-size: cover;        /* Fills the container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+}
+#recovery{
+    background-image: url(https://i.pinimg.com/736x/27/c5/69/27c5695480d69eadc9889a2d2562e62b.jpg);
+    object-fit: cover;
+    background-size: cover;        /* Fills the container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+}
+#cardio{
+    background-image: url(https://i.pinimg.com/736x/df/77/1c/df771cb56e7c6f83ca123fb1f3a192a2.jpg);
+    object-fit: cover;
+    background-size: cover;        /* Fills the container */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents tiling */
+}
+
+.square-transparent{
+    background-color: rgba(43, 43, 43, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 8px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.square-transparent::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* dark tint */
+    border-radius: 8px;
+    z-index: 0;
+}
+.square-transparent> * {
+    position: relative;
+    z-index: 1;
+}
+.fa-circle-check{
+    color: lime;
+}
+.square-placeholder {
+    background-color: white;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.square-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+.testimonial-placeholder {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    flex-shrink: 0;
+}
+.testimonial-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    
+}
