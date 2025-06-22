@@ -98,7 +98,7 @@ html {
     background-color: rgba(43, 43, 43, 0.6);
     border-radius: 8px;
     width: 100%;
-    height: auto; /* allow height to adjust to content */
+    height: auto; 
     align-items: center;
     color: white;
     gap: 1rem;
@@ -120,30 +120,30 @@ ul,li{
 #strength{
     background-image: url(https://i.pinimg.com/736x/81/46/00/814600de48eaf4ff4922d734edd0a221.jpg);
     object-fit: cover;
-    background-size: cover;        /* Fills the container */
-    background-position: center;   /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents tiling */
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
 }
 #endurance{
     background-image: url(https://i.pinimg.com/736x/fe/39/a1/fe39a174788b9770deb1180078c79ec6.jpg);
     object-fit: cover;
-    background-size: cover;        /* Fills the container */
-    background-position: center;   /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents tiling */
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;  
 }
 #recovery{
     background-image: url(https://i.pinimg.com/736x/27/c5/69/27c5695480d69eadc9889a2d2562e62b.jpg);
     object-fit: cover;
-    background-size: cover;        /* Fills the container */
-    background-position: center;   /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents tiling */
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;
 }
 #cardio{
     background-image: url(https://i.pinimg.com/736x/df/77/1c/df771cb56e7c6f83ca123fb1f3a192a2.jpg);
     object-fit: cover;
-    background-size: cover;        /* Fills the container */
-    background-position: center;   /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents tiling */
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat; 
 }
 
 .square-transparent{
@@ -162,7 +162,7 @@ ul,li{
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* dark tint */
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 8px;
     z-index: 0;
 }
