@@ -111,6 +111,8 @@ html {
     align-items: center;
     color: white;
     gap: 1rem;
+    flex-wrap: wrap;
+    min-height: 250px;
 }
 p{
     color: white;
